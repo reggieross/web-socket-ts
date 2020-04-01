@@ -1,0 +1,65 @@
+{
+  "name": "websocket-ts",
+  "version": "1.0.0",
+  "description": "Exapmle websocket server",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reggieross/websocket-ts.git"
+  },
+  "author": "Reginald Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reggieross/websocket-ts/issues"
+  },
+  "homepage": "https://github.com/reggieross/websocket-ts#readme",
+  "dependencies": {
+    "@types/cookie": "^0.3.3",
+    "@types/jsonwebtoken": "^8.3.8",
+    "@types/lodash": "^4.14.149",
+    "@types/uuid": "^7.0.2",
+    "@types/uuidv4": "^5.0.0",
+    "@types/websocket": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "cookie": "^0.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "jest": "^25.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "ts-jest": "^25.2.1",
+    "uuid": "^7.0.2",
+    "uuidv4": "^6.0.6",
+    "websocket": "^1.0.31"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^12.0.7",
+    "prettier": "^2.0.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.5.1"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest"
+    },
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+  }
+}
