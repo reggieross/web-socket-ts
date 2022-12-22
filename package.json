@@ -30,7 +30,7 @@
     "express": "^4.17.1",
     "http": "0.0.1-security",
     "jest": "^25.1.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.15",
     "ts-jest": "^25.2.1",
     "uuid": "^7.0.2",
